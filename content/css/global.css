@@ -93,6 +93,9 @@ header a
     mask-image: url("../images/logo_text.svg");
     mask-size: contain;
     mask-repeat: no-repeat;
+    -webkit-mask-image: url("../images/logo_text.svg");
+    -webkit-mask-size: contain;
+    -webkit-mask-repeat: no-repeat;
 }
 
 span.logo
@@ -104,6 +107,9 @@ span.logo
     mask-image: url("../images/logo.svg");
     mask-size: contain;
     mask-repeat: no-repeat;
+    -webkit-mask-image: url("../images/logo.svg");
+    -webkit-mask-size: contain;
+    -webkit-mask-repeat: no-repeat;
 }
 
 .spacer68
@@ -180,6 +186,9 @@ span.logo
     background-color: var(--backgroundaccent);
     mask-image: url("../images/down.svg");
     mask-size: contain;
+    -webkit-background-color: var(--backgroundaccent);
+    -webkit-mask-image: url("../images/down.svg");
+    -webkit-mask-size: contain;
 
     width: 10vh;
     height: 10vh;

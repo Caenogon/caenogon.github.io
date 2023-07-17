@@ -1,27 +1,17 @@
 :root
 {
     /*pal1*/
-    /*--tone0: #27262b;
-    --tone1: #4D455D;
-    --tone2: #7DB9B6;
-    --tone3: #ff7167;
-    --tone4: #F5E9CF;*/
-
-    /*pal1*/
-    --tone0: #27213b;
-    --tone1: #463361;
-    --tone2: #d45f8a;
-    --tone3: #764c77;
+    --tone0: #121113;
+    --tone1: #252225;
+    --tone2: #523c53;
+    --tone3: #674667;
     --tone4: #fff4e0;
 
+    --text: var(--tone4);
+    --deepground: var(--tone0);
     --background: var(--tone1);
-    --foreground: var(--tone4);
-
-    --backgroundshadow: var(--tone0);
-    --backgroundtext: var(--tone4);
-
-    --foregroundtext: var(--tone0);
-    --foregroundaccent: var(--tone3);
+    --primary: var(--tone3);
+    --secondary: var(--tone2);
 
     --metra: #af8fd5;
     --hyper: #dc3545;
@@ -32,7 +22,7 @@
 html
 {
     scroll-behavior: smooth;
-    font-family: 'Outfit', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     background-color: var(--background);
 }
 
@@ -47,6 +37,7 @@ body
 h1, h2, h3
 {
     margin: 0;
+    font-family: 'Outfit', sans-serif;
     font-weight: normal;
     min-height: 6.3vh;
 }
@@ -73,7 +64,6 @@ header
     justify-content: space-between;
 
     background-color: var(--background);
-    background: linear-gradient(180deg, var(--background) 0%, var(--background) 90%, #0000 100%);
 
     height: 10vh;
     width: 103.53vh;
@@ -85,17 +75,18 @@ header
 
 header a
 {
-    color: var(--backgroundtext);
+    color: var(--text);
+    font-family: 'Outfit', sans-serif;
     line-height: 10vh;
     font-size: 3.75vh;
-    text-shadow: 0 0 1vh var(--backgroundshadow);
+    text-shadow: 0 0.25vh 1vh black;
 }
 
 #logo
 {
     width: 37vh;
 
-    filter: drop-shadow(0 0 1vh var(--backgroundshadow));
+    filter: drop-shadow(0 0.25vh 1vh black);
 }
 
 #logo a
@@ -119,7 +110,7 @@ footer .logo
     width: 1.5em;
     height: 1.5em;
 
-    background-color: var(--foregroundtext);
+    background-color: var(--background);
     mask-image: url("../images/logo.svg");
     mask-size: contain;
     mask-repeat: no-repeat;
@@ -139,26 +130,47 @@ footer .logo
     height: 10vh;
 }
 
+.hero
+{
+    padding: 0 50vw;
+    margin: 0 -50vw;
+    box-shadow: 0 0 0 4vh var(--background);
+}
+
+.hero:before
+{
+    content: "";
+    height: 80vh;
+    z-index: -1;
+    position: absolute;
+    left: 0;
+    right: 0;
+    
+    background-image: url("../images/hands.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    filter: brightness(50%) blur(1vh);
+}
+
 .content
 {
     display: flex;
     flex-wrap: wrap;
 
+    height: 80vh;
     scroll-margin-top: 10vh;
 
-    text-align: center;
-
-    background-color: var(--foreground);
-    color: var(--foregroundtext);
-    box-shadow: 0 0 1vh var(--backgroundshadow);
-    border-radius: 3.1415vh;
-
-    height: 80vh;
+    color: var(--text);
+    text-shadow: 0 0.25vh 1vh black;
 }
 
-.content a
+.deep
 {
-    color: var(--foregroundaccent);
+    background-color: var(--deepground);
+    border-radius: 3.1415vh;
+    text-align: center;
 }
 
 .flex-column
@@ -183,22 +195,42 @@ footer .logo
     justify-content: center;
 }
 
-.heading
-{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 0;
+.primary-button {
+    padding: 1.5vh 3vh;
+    border-radius: 1vh;
+    font-size: 2vh;
+    
+    background-color: var(--primary);
+    color: var(--text);
+    text-decoration: none;
+    text-shadow: none;
+    box-shadow: 0 0.25vh 1vh black;
+    
+    transition: ease 0.2s;
+    transition-property: transform, background-color, color, box-shadow;
+    display: inline-block;
+    white-space: nowrap;
+}
+
+.primary-button:hover {
+    transform: translate(0, -0.25vh);
+    background-color: var(--text);
+    color: var(--background);
+    box-shadow: 0 0.5vh 1vh black;
 }
 
 .scroll-down
 {
-    filter: drop-shadow(0 0 1vh var(--backgroundshadow));
+    filter: drop-shadow(0 0.25vh 1vh black);
+    background-color: var(--background);
 }
 
-.scroll-down div
+.scroll-down:before
 {
-    background-color: var(--backgroundtext);
+    content: "";
+    display: block;
+    
+    background-color: var(--text);
     mask-image: url("../images/down.svg");
     mask-size: contain;
     -webkit-mask-image: url("../images/down.svg");
@@ -211,8 +243,8 @@ footer .logo
 
 .pfp
 {
-    width: 20vh;
-    height: 20vh;
+    width: 15vh;
+    height: 15vh;
     padding: 0.5vh;
 }
 
@@ -226,12 +258,28 @@ footer .logo
     border-style: solid;
     border-width: 0.5vh;
 
-    width: 20vh;
-    height: 20vh;
+    width: 15vh;
+    height: 15vh;
     margin: -0.5vh;
 
-    transition: 0.1s;
+    transition: 0.2s;
     transition-property: transform;
+}
+
+.pfp figure
+{
+    width: calc(15vh - 1vh);
+    height: calc(15vh - 1vh);
+    padding: 0.5vh;
+    margin: 0;
+}
+
+.pfp img
+{
+    display: block;
+    height: 100%;
+    width: 100%;
+    border-radius: 100%;
 }
 
 .pfp:hover::before
@@ -272,26 +320,10 @@ footer .logo
     background-color: var(--pixel);
 }
 
-.pfp figure
-{
-    width: 95%;
-    height: 95%;
-    padding: 0.5vh;
-    margin: 0;
-}
-
-.pfp img
-{
-    display: block;
-    height: 100%;
-    width: 100%;
-    border-radius: 100%;
-}
-
 footer
 {
-    background-color: var(--foreground);
-    color: var(--foregroundtext);
+    background-color: var(--text);
+    color: var(--background);
     text-align: center;
     font-size: 1.6vh;
 
@@ -302,5 +334,5 @@ footer
 
 footer a
 {
-    color: var(--foregroundaccent);
+    color: var(--primary);
 }

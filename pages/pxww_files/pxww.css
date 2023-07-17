@@ -1,0 +1,135 @@
+﻿:root
+{
+    font-family: 'Inter', sans-serif;
+    --dark: #333;
+}
+
+body
+{
+    margin: 0 auto;
+    height: 100vh;
+    aspect-ratio: 3.2/3;
+    overflow-x: hidden;
+    color: var(--dark);
+}
+
+.px64
+{
+    height: 64px;
+    line-height: 64px;
+}
+
+.centre
+{
+    text-align: center;
+    justify-content: center;
+}
+
+.heading
+{
+    margin: 64px 32px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.heading h2
+{
+    margin-left: 8px;
+}
+
+.flexrow
+{
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.icontext
+{
+    height: 32px;
+    line-height: 32px;
+}
+
+.icontext img
+{
+    margin: 0 8px;
+}
+
+.leftcolumn
+{
+    display: flex;
+    flex-flow: column nowrap;
+    width: 50%;
+}
+
+.leftcolumn a
+{
+    padding: 8px 0;
+}
+
+.rightcolumn
+{
+    display: flex;
+    flex-flow: column nowrap;
+    text-align: right;
+    width: 50%;
+}
+
+.rightcolumn span
+{
+    padding: 8px 0;
+    justify-content: right;
+}
+
+h1, h2, h3, h4, h5, h6, a, p
+{
+    margin: 0;
+}
+
+summary
+{
+    cursor: pointer;
+}
+
+details
+{
+    background-color: var(--dark);
+    color: white;
+    
+    padding: 8px;
+    margin: 8px 0;
+    border-radius: 8px;
+}
+
+details p
+{
+    line-height: 64px;
+}
+
+details a
+{
+    display: inline-block;
+    margin: 8px auto 0 auto;
+}
+
+details code
+{
+    display: block;
+    
+    background-color: white;
+    color: var(--dark);
+    
+    padding: 16px;
+    border-radius: 8px;
+    
+    cursor: text;
+}
+
+a
+{
+    color: var(--dark);
+}
+
+footer
+{
+    margin: 128px 0;
+    text-align: center;
+}

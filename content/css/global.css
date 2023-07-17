@@ -17,6 +17,7 @@
     --hyper: #dc3545;
     --mike: #28a745;
     --pixel: #0d6efd;
+    --acidic: #44d2a8;
 }
 
 html
@@ -318,6 +319,14 @@ footer .logo
 .pfp#scepixel img
 {
     background-color: var(--pixel);
+}
+.pfp#acidiclight::before
+{
+    border-color: var(--acidic);
+}
+.pfp#acidiclight img
+{
+    background-color: var(--acidic);
 }
 
 footer

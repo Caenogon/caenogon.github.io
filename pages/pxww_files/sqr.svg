@@ -1,14 +1,12 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+ "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+ width="32.000000pt" height="32.000000pt" viewBox="0 0 32.000000 32.000000"
+ preserveAspectRatio="xMidYMid meet">
 
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" width="32px" height="32px" viewBox="0 0 32 32">
-<defs>
-<g id="Layer0_0_FILL">
-<path fill="#333333" stroke="none" d="
-M 32 18
-L 18 18 18 32 32 32 32 18 Z"/>
-</g>
-</defs>
-
-<g transform="matrix( 1, 0, 0, 1, 0,0) ">
-<use xlink:href="#Layer0_0_FILL"/>
+<g transform="translate(0.000000,32.000000) scale(0.100000,-0.100000)"
+fill="#333333" stroke="none">
+<path d="M90 160 l0 -70 70 0 70 0 0 70 0 70 -70 0 -70 0 0 -70z"/>
 </g>
 </svg>

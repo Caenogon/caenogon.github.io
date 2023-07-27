@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Graphic version="2.0" viewHeight="327" viewWidth="437" ATE:version="1.0.0" flm:version="1.0.0" d:id="1" d:using="" xmlns="http://ns.adobe.com/fxg/2008" xmlns:ATE="http://ns.adobe.com/ate/2009" xmlns:d="http://ns.adobe.com/fxg/2008/dt" xmlns:flm="http://ns.adobe.com/flame/2008">
+  <Library/>
+  <Group blendMode="normal" d:type="layer" d:userLabel="Layer 8">
+    <Path flm:isDrawingObject="false" data="M437 327 0 327 0 0 437 0Z">
+      <fill>
+        <SolidColor color="#FF9900"/>
+      </fill>
+    </Path>
+  </Group>
+  <Group blendMode="normal" d:type="layer" d:userLabel="Layer 6">
+    <Group flm:isDrawingObject="false">
+      <Path data="M125 177.65 123.65 177.35Q121.6 174.45 120.3 171.65L119.65 172.75 119.2 172.45 118.8 172.15 119.7 170.25Q119.95 170.9 120.3 171.65 119.95 170.9 119.7 170.25 114.45 157.35 124.45 146.2 125.3 140.65 126.7 136.05 129.8 125.6 136.3 119.55 138.7
+ 118.9 141.75 117.8 143.85 117 146 116.3 193.95 99.9 228.35 110.85 230.5 111.55 232.65 112.35 235.8 113.45 238.2 114.1 244.85 120.15 248 130.6 249.45 135.2 250.3 140.75 264.6 154.25 252.8 174.1L249.75 172.2 241.4 133.25Q244.6 135.4 247.1 137.65
+ 246.35 133.85 245.2 130.6 242.95 124 239.5 119.85 236.1 118.45 232.65 117.25 230.5 116.45 228.35 115.75 193.5 105.05 146 121.2 143.85 121.9 141.75 122.7 138.4 123.9 135.05 125.3 131.65 129.45 129.45 136.05 128.35 139.3 127.6 143.1 130.05 140.85
+ 133.2 138.7ZM127.6 143.1Q125.85 144.65 124.45 146.2 125.85 144.65 127.6 143.1ZM250.3 140.75Q248.9 139.2 247.1 137.65 248.9 139.2 250.3 140.75Z">
+        <fill>
+          <SolidColor color="#FFFFFF"/>
+        </fill>
+      </Path>
+      <Path data="M249.75 172.2 241.4 133.25Q244.6 135.4 247.1 137.65 246.35 133.85 245.2 130.6 242.95 124 239.5 119.85 236.1 118.45 232.65 117.25 230.5 116.45 228.35 115.75 193.5 105.05 146 121.2 143.85 121.9 141.75 122.7 138.4 123.9 135.05 125.3 131.65 129.45
+ 129.45 136.05 128.35 139.3 127.6 143.1 130.05 140.85 133.2 138.7L125 177.65 124.75 178.85Q124.2 178.1 123.65 177.35 121.6 174.45 120.3 171.65 119.95 170.9 119.7 170.25 114.45 157.35 124.45 146.2 125.3 140.65 126.7 136.05 129.8 125.6 136.3 119.55
+ 138.7 118.9 141.75 117.8 143.85 117 146 116.3 193.95 99.9 228.35 110.85 230.5 111.55 232.65 112.35 235.8 113.45 238.2 114.1 244.85 120.15 248 130.6 249.45 135.2 250.3 140.75 264.6 154.25 252.8 174.1L253.1 174.3M250.3 140.75Q248.9 139.2 247.1
+ 137.65M252.8 174.1Q250.45 172.75 250 173.4L249.75 172.2M124.45 146.2Q125.85 144.65 127.6 143.1">
+        <stroke>
+          <SolidColorStroke color="#FFFFFF"/>
+        </stroke>
+      </Path>
+      <Path data="M120.3 171.65 119.65 172.75 119.2 172.45M119.7 170.25 118.8 172.15 119.2 172.45">
+        <stroke>
+          <SolidColorStroke scaleMode="none" caps="none" color="#FFFFFF"/>
+        </stroke>
+      </Path>
+      <Path data="M119.2 172.45Q114.45 183.45 115 195.8 115.6 212 119 225.8 120.7 233.05 121.95 228.7 123.15 224.3 123.25 221.8 123.3 219.25 123.3 217.55 123.25 215.85 122.95 213.9 122.65 211.95 122.55 210.05 122.4 208.25 122.3 206.4 122.2 204.35 122.5 202.6
+ 122.8 200.85 124.45 200.6 126.6 200.25 127 201.8">
+        <stroke>
+          <SolidColorStroke weight="0.5" color="#FFFFFF"/>
+        </stroke>
+      </Path>
+    </Group>
+  </Group>
+  <Group blendMode="normal" d:type="layer" d:userLabel="Layer 4">
+    <Group flm:isDrawingObject="false">
+      <Path data="M208.6 127.35Q220 105.9 231.6 93.85 245.55 133.2 253.8 175.9 256.2 188.3 246.35 194.8 236.5 201.25 205.85 202L205.85 206.5Q223.3 233.8 248.85 210.85 259.05 208.5 252.6 222.1 234.9 243.1 207.6 229.3L212.8 273.8Q221.75 297.45 224 327.8L212 328.8
+Q209.45 301.5 205.5 288.45 201.55 275.4 201.5 275.4L188.15 277.6Q188.45 301.55 182 328.8L168.4 328.8Q172.3 319.7 177 278.75L173.7 230.2Q151.9 249.45 134.35 224.7 132 221.4 129.75 217.35 130 207.15 140.05 210.7 142.45 214.55 144.8 217.45 160.6
+ 236.55 174.2 205.85L174.2 201.8Q131.3 200 125.35 186.85 122.6 182.7 124.05 173 134.2 128.15 150.5 93.85 164.6 110.65 172.7 129.05Z">
+        <fill>
+          <SolidColor/>
+        </fill>
+      </Path>
+      <Path data="M335.2 328.8 324.2 328.8 328.25 225.15Q314.15 234.65 305.55 197.85L302.3 197Q285.1 191 286.4 177.4 290.1 139.5 306.1 93.85L326.75 128.3 361.1 128.3Q373.3 109.35 389 93.85L389.5 93.85Q401.4 139.65 408.15 173.3 414.75 206.05 356.7 203.4L356.6
+ 203.4 356.6 208.25Q367.85 235.75 368.45 265.2 363 269.55 356 265.8L358.4 329.8 345.8 329.8 345.8 274.85 337.2 274.6ZM392.5 219.85Q392.7 219.65 392.9 219.45 392.95 219.65 393 219.85ZM328.5 201.65 318.9 200.6Q317.25 200.4 315.9 200.2 323.8 221.75
+ 328.5 204.5Z">
+        <fill>
+          <SolidColor color="#FFFFFF"/>
+        </fill>
+      </Path>
+      <Path data="M358.4 329.8 345.8 329.8M335.2 328.8 324.2 328.8">
+        <stroke>
+          <SolidColorStroke weight="0.5" color="#FFFFFF"/>
+        </stroke>
+      </Path>
+    </Group>
+    <Group>
+      <Path flm:isDrawingObject="false" data="M28.25 19.45Q28.85 18.65 29.85 18.1 30.8 17.55 31.65 17.5 31.65 17.75 31.65 18 31.65 19.95 30.5 21.6 29.7 22.6 28.8 23.1 27.95 23.6 26.95 23.55 26.95 23.3 26.95 23.05 26.95 22.15 27.25 21.2 27.65 20.25 28.25 19.45ZM23.3 23.6Q24.05 23.6 25.4
+ 24.2 26.75 24.75 27.1 24.75 27.35 24.75 29 24.1 30.55 23.45 31.55 23.55 34.4 23.8 35.8 26.1 33.25 27.85 33.35 31 33.35 33.45 34.9 35.05 35.55 35.8 36.45 36.2 36.25 36.85 36 37.4 35.5 38.75 34.85 39.85 33.85 41.4 33.25 42 32.35 42.95 31.25 43
+ 30.5 43 29.4 42.5 28.35 42 27.4 42 26.45 42 25.35 42.5 24.25 43 23.6 43.05 22.55 43.1 21.55 42 20.9 41.35 19.9 39.8 18.85 38.1 18.2 35.9 17.5 33.5 17.5 31.25 17.5 28.7 18.45 26.85 19.25 25.35 20.5 24.5 21.75 23.65 23.3 23.6Z">
+        <fill>
+          <SolidColor color="#FFFFFF"/>
+        </fill>
+      </Path>
+    </Group>
+    <RichText scaleX="1.2853851" scaleY="1.3253632" x="13.62923" y="44.649274" paddingLeft="2" paddingRight="2" paddingTop="2" paddingBottom="2" fontFamily="Arial" whiteSpaceCollapse="preserve" locale="da_DK" pd:antiAlias="advanced" pd:editPolicy="readOnly" pd:embedFonts="1" xmlns:pd="http://ns.adobe.com/xfl/2008/pd">
+      <content><p fontFamily="Arial"><span fontFamily="Myriad Apple" lineHeight="124.58333%" color="#FFFFFF">Everywhere together.</span></p></content>
+    </RichText>
+    <RichText scaleX="1.2853851" scaleY="1.3253632" x="39.22923" y="8.8992737" paddingLeft="2" paddingRight="2" paddingTop="2" paddingBottom="2" fontFamily="Arial" whiteSpaceCollapse="preserve" locale="da_DK" pd:antiAlias="advanced" pd:editPolicy="readOnly" pd:embedFonts="1" xmlns:pd="http://ns.adobe.com/xfl/2008/pd">
+      <content><p fontFamily="Arial"><span fontFamily="Myriad Pro Light" fontSize="25" fontWeight="bold" lineHeight="130.2%" color="#FFFFFF">iPod</span></p></content>
+    </RichText>
+  </Group>
+  <Group blendMode="normal" d:type="layer" d:userLabel="Layer 7">
+    <Group flm:isDrawingObject="false">
+      <Path data="M120 169.35 121.7 170.35 119.9 173.4 118.2 172.4ZM126.9 201.85 127.6 201.45 128.35 203.55 134.8 200.6 140.8 215.6 132.5 219.4Q131 215.55 130.65 214.7L126.7 204.3 127.15 204.1 126.45 202.05Z">
+        <fill>
+          <SolidColor color="#FFFFFF"/>
+        </fill>
+      </Path>
+      <Path data="M120 169.35 121.7 170.35 119.9 173.4 118.2 172.4Z">
+        <stroke>
+          <SolidColorStroke weight="2" scaleMode="none" color="#FFFFFF"/>
+        </stroke>
+      </Path>
+    </Group>
+  </Group>
+  <Group blendMode="normal" d:type="layer" d:userLabel="Layer 9">
+    <Group flm:isDrawingObject="false">
+      <Path data="M134.45 201.85 136.15 205.9 129.35 209 127.85 204.85Z">
+        <fill>
+          <SolidColor color="#CCCCCC"/>
+        </fill>
+      </Path>
+      <Path data="M137.3 210.35Q138.35 211.4 138.35 212.85 138.35 214.3 137.3 215.3 136.3 216.35 134.85 216.35 133.4 216.35 132.4 215.3 131.35 214.3 131.35 212.85 131.35 211.4 132.4 210.35 133.4 209.35 134.85 209.35 136.3 209.35 137.3 210.35ZM135.85 212.85Q135.85
+ 213.2 135.55 213.5 135.3 213.8 134.95 213.8 134.55 213.8 134.3 213.5 134 213.2 134 212.85 134 212.45 134.3 212.2 134.55 211.9 134.95 211.9 135.3 211.9 135.55 212.2 135.85 212.45 135.85 212.85Z">
+        <stroke>
+          <SolidColorStroke weight="5" scaleMode="none" color="#CCCCCC"/>
+        </stroke>
+      </Path>
+    </Group>
+  </Group>
+  <Private>
+      <d:FontMap>
+        <d:Map fontFamily="Arial" fontStyle="normal" fontWeight="normal" postScriptName="ArialMT"/>
+        <d:Map fontFamily="Myriad Apple" fontStyle="normal" fontWeight="normal" postScriptName="MyriadApple-Text"/>
+        <d:Map fontFamily="Myriad Pro Light" fontStyle="normal" fontWeight="bold" postScriptName="MyriadPro-Semibold"/>
+      </d:FontMap>
+      <xfl:PrivateElement d:ref="#1" xmlns:xfl="http://ns.adobe.com/xfl/2008/">
+        <xfl:publishSettings xfl:source=""/>
+        <xfl:mobileSettings xfl:source=""/>
+        <xfl:as3ExportItems/>
+      </xfl:PrivateElement>
+    </Private>
+  </Graphic>

@@ -78,11 +78,43 @@ header a {
     text-shadow: 0 0.25vh 1vh black;
 }
 
+#logo #logo-small {
+    max-height: 100%;
+    filter: drop-shadow(0 0.25vh 1vh black);
+}
+
 #logo {
     width: 37vh;
-    max-height: 100%;
+}
 
-    filter: drop-shadow(0 0.25vh 1vh black);
+#logo-small {
+    display: none;
+    width: 100%;
+}
+
+#logo a, #logo-small a {
+    display: block;
+
+    height: 100%;
+    margin: auto;
+
+    background-color: currentColor;
+    mask-size: contain;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: contain;
+    -webkit-mask-repeat: no-repeat;
+}
+
+#logo a {
+    mask-image: url("../images/logo_text.svg");
+    -webkit-mask-image: url("../images/logo_text.svg");
+    aspect-ratio: 285/80;
+}
+
+#logo-small a {
+    mask-image: url("../images/logo.svg");
+    -webkit-mask-image: url("../images/logo.svg");
+    aspect-ratio: 1;
 }
 
 @media only screen and (max-width: 90vh) {
@@ -95,21 +127,13 @@ header a {
     }
 }
 
-#logo a {
-    display: block;
-
-    height: 100%;
-    max-width: 100%;
-    aspect-ratio: 285/80;
-    margin: auto;
-
-    background-color: currentColor;
-    mask-image: url("../images/logo_text.svg");
-    mask-size: contain;
-    mask-repeat: no-repeat;
-    -webkit-mask-image: url("../images/logo_text.svg");
-    -webkit-mask-size: contain;
-    -webkit-mask-repeat: no-repeat;
+@media only screen and (max-width: 50vh) {
+    #logo {
+        display: none;
+    }
+    #logo-small {
+        display: block;
+    }
 }
 
 footer .logo {

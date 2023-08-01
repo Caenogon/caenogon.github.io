@@ -18,6 +18,8 @@ body
 {
     height: 64px;
     line-height: 64px;
+    font-size: 24px;
+    font-weight: 200
 }
 
 .centre
@@ -29,7 +31,7 @@ body
 .heading
 {
     margin: 64px 32px;
-    font-family: 'Montserrat', sans-serif;
+    font-weight: 200
 }
 
 .heading h2
@@ -82,11 +84,16 @@ body
     justify-content: right;
 }
 
-h1, h2, h3, h4, h5, h6, a, p
+h1, h2, h3, h4, h5, h6
 {
+    letter-spacing: 5px;
     margin: 0;
+    font-weight: 200
 }
-
+p, a
+{
+    margin: 0
+}
 summary
 {
     cursor: pointer;

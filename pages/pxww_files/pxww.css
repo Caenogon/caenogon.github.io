@@ -164,3 +164,9 @@ footer
     display: none !important;
   }
 }
+@media only screen and (min-width: 728px)
+{
+  .fuck_you {
+    display: none !important;
+  }
+}

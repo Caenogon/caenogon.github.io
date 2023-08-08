@@ -158,3 +158,9 @@ footer
     padding: 1.5707vh calc(1.5707vh + 50vw);
     margin: 0 -50vw;
 }
+@media only screen and (max-width: 727px)
+{
+  body > * {
+    display: none !important;
+  }
+}

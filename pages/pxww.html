@@ -12,9 +12,42 @@
         <link rel="icon" type="image/x-icon" href="pxww_files/siteicon.svg">
     </head>
 
-    <body>
-        <div class="flexrow centre">
-            <img alt="" src="pxww_files/pxww.svg" width="800px">
+    <script src="https://code.createjs.com/1.0.0/createjs.min.js"></script>
+    <script src="pxww_files/pxwlogo.js"></script>
+    <script>
+    var canvas, stage, exportRoot, anim_container, dom_overlay_container, fnStartAnimation;
+    function init() {
+	canvas = document.getElementById("canvas");
+	anim_container = document.getElementById("animation_container");
+	dom_overlay_container = document.getElementById("dom_overlay_container");
+	var comp=AdobeAn.getComposition("46BF1B21BDC4AC4680603D4176D8FDDF");
+	var lib=comp.getLibrary();
+	handleComplete({},comp);
+    }
+    function handleComplete(evt,comp) {
+	//This function is always called, irrespective of the content. You can use the variable "stage" after it is created in token create_stage.
+	var lib=comp.getLibrary();
+	var ss=comp.getSpriteSheet();
+	exportRoot = new lib.pxwhtml5();
+	stage = new lib.Stage(canvas);	
+	//Registers the "tick" event listener.
+	fnStartAnimation = function() {
+		stage.addChild(exportRoot);
+		createjs.Ticker.framerate = lib.properties.fps;
+		createjs.Ticker.addEventListener("tick", stage);
+	}	    
+	//Code to support hidpi screens and responsive scaling.
+	AdobeAn.makeResponsive(false,'both',false,1,[canvas,anim_container,dom_overlay_container]);	
+	AdobeAn.compositionLoaded(lib.properties.id);
+	fnStartAnimation();
+    }
+    </script>
+
+    <body onload="init();">
+        <div id="animation_container" style="background-color:rgba(255, 255, 255, 1.00); width:480px; height:156px; margin: auto; padding: 32px;">
+            <canvas id="canvas" width="480" height="156" style="background-color:rgba(255, 255, 255, 1.00);"></canvas>
+            <div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:480px; height:156px;">
+            </div>
         </div>
         
         <div class="flexrow heading centre px64">
@@ -29,6 +62,8 @@
             </div>
             <p>This is a personal website for myself. What I will do here is <a href="#scepixelInfo">specified.</a> Perchance.</p>
             <p style="padding-left: 515px; font-size: smaller">You can't just say "perchance"</p>
+            <br>
+            <p>Also, this website uses really unresponsive design.</p>
         </div>
         <details>
             <summary>Banner</summary>
@@ -51,7 +86,7 @@
                 <br>
                 I am finnish and play games and such. Mainly older ones.
                 <br>
-                I also do other things such as listening to music and drawing, I guess. In flash.
+                I also do other things such as listening to music and drawing, I guess.
             </p>
             <br>
             <p>I am kind of a nerd, too. &lt;(^_^)</p>
@@ -85,7 +120,7 @@
         <p style="font-size: smaller; padding-bottom: 4px"><strong>Description</strong></p>
         <p style="padding-bottom: 16px">Things I create for fun, or out of spite.
         <br>
-        Download links require Flash Professional.
+        Some download links may require Flash Professional.
         </p>
         <p>
             <a class="flexrow icontext" href="https://youtu.be/d8J7fAE0oZc">
@@ -150,6 +185,12 @@
                 <img alt="" src="pxww_files/twitter.svg">
                 kuro after party</a>
             <a class="fxglink" href="pxww_files/art/kuro_after_party.fxg"><strong>Vector (Flash)</strong></a>
+            <br>
+            <a class="flexrow icontext" href="pxww_files/art/tsukasa_lucerna.png">
+                <img alt="" src="pxww_files/sqr4.svg">
+                yipes!</a>
+            <a class="fxglink" href="pxww_files/art/tsukasa_lucerna.svg"><strong>Vector (SVG)</strong></a>
+
         
 
         </p>
@@ -171,6 +212,9 @@
             <h2 style="text-align: right;">Metraberryy</h2>
             <p style="text-align: right;">Lead... Everything at <a href="https://caenogo.nl">Caenogon</a>. Sanitized and rebuilt my original wordpress site.</p>
         </div>
+        
+        <p style="text-align: center; padding-top: 5vh; font-size: x-large;"><a href=https://caenogo.nl/#team><strong>Check out everyone else</strong></a></p>
+        
         <div class="flexrow heading centre px64">
             <img alt="" src="pxww_files/info.svg">
             <h2>presence</h2>

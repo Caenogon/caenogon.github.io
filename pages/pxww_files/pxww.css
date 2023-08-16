@@ -8,10 +8,9 @@ body
 {
     margin: 0 auto;
     height: 100vh;
-    aspect-ratio: 3.2/3;
     overflow-x: hidden;
     color: var(--dark);
-    max-width: 95vw;
+    max-width: 55vw;
     background-image: url(bg.svg);
     background-position: center
 }

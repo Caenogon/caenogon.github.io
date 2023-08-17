@@ -15,38 +15,36 @@
     <script src="https://code.createjs.com/1.0.0/createjs.min.js"></script>
     <script src="pxww_files/pxwlogo.js"></script>
     <script>
+    //Canvas for animated logo
     var canvas, stage, exportRoot, anim_container, dom_overlay_container, fnStartAnimation;
     function init() {
-	canvas = document.getElementById("canvas");
-	anim_container = document.getElementById("animation_container");
-	dom_overlay_container = document.getElementById("dom_overlay_container");
-	var comp=AdobeAn.getComposition("46BF1B21BDC4AC4680603D4176D8FDDF");
-	var lib=comp.getLibrary();
-	handleComplete({},comp);
+        canvas = document.getElementById("canvas");
+        anim_container = document.getElementById("animation_container");
+        dom_overlay_container = document.getElementById("dom_overlay_container");
+        var comp=AdobeAn.getComposition("E2AB1B3FA6770B478618159B1CB08243");
+        var lib=comp.getLibrary();
+        handleComplete({},comp);
     }
     function handleComplete(evt,comp) {
-	//This function is always called, irrespective of the content. You can use the variable "stage" after it is created in token create_stage.
-	var lib=comp.getLibrary();
-	var ss=comp.getSpriteSheet();
-	exportRoot = new lib.pxwhtml5();
-	stage = new lib.Stage(canvas);	
-	//Registers the "tick" event listener.
-	fnStartAnimation = function() {
-		stage.addChild(exportRoot);
-		createjs.Ticker.framerate = lib.properties.fps;
-		createjs.Ticker.addEventListener("tick", stage);
-	}	    
-	//Code to support hidpi screens and responsive scaling.
-	AdobeAn.makeResponsive(false,'both',false,1,[canvas,anim_container,dom_overlay_container]);	
-	AdobeAn.compositionLoaded(lib.properties.id);
-	fnStartAnimation();
+        var lib=comp.getLibrary();
+        var ss=comp.getSpriteSheet();
+        exportRoot = new lib.pxwlogo();
+        stage = new lib.Stage(canvas);	
+        fnStartAnimation = function() {
+            stage.addChild(exportRoot);
+            createjs.Ticker.framerate = lib.properties.fps;
+            createjs.Ticker.addEventListener("tick", stage);
+        }	    
+        AdobeAn.makeResponsive(false,'both',false,1,[canvas,anim_container,dom_overlay_container]);	
+        AdobeAn.compositionLoaded(lib.properties.id);
+        fnStartAnimation();
     }
     </script>
 
     <body onload="init();">
-        <div id="animation_container" style="background-color:rgba(255, 255, 255, 1.00); width:480px; height:156px; margin: auto; padding: 32px;">
-            <canvas id="canvas" width="480" height="156" style="background-color:rgba(255, 255, 255, 1.00);"></canvas>
-            <div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:480px; height:156px;">
+        <div id="animation_container" style="margin: auto">
+            <canvas id="canvas" width="720px" height="234px"></canvas>
+            <div id="dom_overlay_container" width="720px" height="234px">
             </div>
         </div>
         
@@ -139,7 +137,7 @@
                 <a class="fxglink" href="pxww_files/art/two.fxg"><strong>Vector (Flash)</strong></a>
             <br>
 
-            <a class="flexrow icontext" href="https://twitter.com/pixelperso38048/status/1678054574190391297">
+            <a class="flexrow icontext" href="https://twitter.com/pixelperso38048/status/16156054574190391297">
                 <img alt="" src="pxww_files/twitter.svg">
                 Everywhere alone</a>
                 <a class="fxglink" href="pxww_files/art/dokodemo_kodoku.fxg"><strong>Vector (Flash)</strong></a>
@@ -214,8 +212,39 @@
         </div>
         
         <p style="text-align: center; padding-top: 5vh; font-size: x-large;"><a href=https://caenogo.nl/#team><strong>Check out everyone else</strong></a></p>
-        
+
+        <div class="flexrow heading">
+            <img alt="" src="pxww_files/sqr4.svg">
+            <h2>gear</h2>
+        </div>
+        <div class="flexrow">
+            <div class="leftcolumn">
+            <p>
+            Hardware. Might upgrade sometime.<br>
+            <br>
+            CPU - Intel Core i5-4670K
+            <br>
+            GPU - NVIDIA GeForce GTX 970
+            <br>
+            Memory - 20GB
+            <br>
+            Storage - Kingston 240GB SSD, Kingston 64GB USB
+            <br>
+            Motherboard - ASUS Z87-K<br>
+            <br>
+            Software<br>
+            <br><s>FutureSplash Animator</s> 
+            Adobe Animate 2023
+            <br>
+            Adobe Flash Professional CS6
+            <br>
+            Adobe Photoshop 2023
+            </p>
+            </div>
+        </div>
+
         <div class="flexrow heading centre px64">
+        
             <img alt="" src="pxww_files/info.svg">
             <h2>presence</h2>
         </div>
@@ -291,7 +320,7 @@
                 <br>
                 
                 <span class="flexrow icontext">
-                    <strong>3240-0060-7717</strong>&nbsp;- 3DS
+                    <strong>3480-0060-7717</strong>&nbsp;- 3DS
                     <img src="pxww_files/nex.svg" alt="">
                 </span>
                 <br>

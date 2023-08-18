@@ -8,44 +8,13 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
-        <title>pixel&#9734;WEB</title>
+        <title>PIXELATION</title>
         <link rel="icon" type="image/x-icon" href="pxww_files/siteicon.svg">
     </head>
 
-    <script src="https://code.createjs.com/1.0.0/createjs.min.js"></script>
-    <script src="pxww_files/pxwlogo.js"></script>
-    <script>
-    //Canvas for animated logo
-    var canvas, stage, exportRoot, anim_container, dom_overlay_container, fnStartAnimation;
-    function init() {
-        canvas = document.getElementById("canvas");
-        anim_container = document.getElementById("animation_container");
-        dom_overlay_container = document.getElementById("dom_overlay_container");
-        var comp=AdobeAn.getComposition("E2AB1B3FA6770B478618159B1CB08243");
-        var lib=comp.getLibrary();
-        handleComplete({},comp);
-    }
-    function handleComplete(evt,comp) {
-        var lib=comp.getLibrary();
-        var ss=comp.getSpriteSheet();
-        exportRoot = new lib.pxwlogo();
-        stage = new lib.Stage(canvas);	
-        fnStartAnimation = function() {
-            stage.addChild(exportRoot);
-            createjs.Ticker.framerate = lib.properties.fps;
-            createjs.Ticker.addEventListener("tick", stage);
-        }	    
-        AdobeAn.makeResponsive(false,'both',false,1,[canvas,anim_container,dom_overlay_container]);	
-        AdobeAn.compositionLoaded(lib.properties.id);
-        fnStartAnimation();
-    }
-    </script>
-
-    <body onload="init();">
-        <div id="animation_container" style="margin: auto">
-            <canvas id="canvas" width="720px" height="234px"></canvas>
-            <div id="dom_overlay_container" width="720px" height="234px">
-            </div>
+    <body>
+        <div>
+                <img style="margin-left: 230px; margin-top: 32px" src="pxww_files/pxww.svg">
         </div>
         
         <div class="flexrow heading centre px64">
@@ -65,13 +34,13 @@
         </div>
         <details>
             <summary>Banner</summary>
-            <a href="https://caenogo.nl/pages/pxww">
-                <img src="pxww_files/pxww.svg"></a>
+            <a href="https://caenogo.nl/pages/pxww" target="_blank">
+                <img src="pxww_files/pxww.svg" width="200" height="40"></a>
             <p>
                 Use this banner to link to my website. <strong>If you want to.</strong>
             </p>
             <code>
-                &lt;a href="https://caenogo.nl/pages/pxww"&gt;&lt;img src="https://caenogo.nl/pages/pxww_files/pxww.svg"&gt;&lt;/a&gt;
+                &lt;a href="https://caenogo.nl/pages/pxww"&nbsp;target="_blank"&gt;&lt;img src="https://caenogo.nl/pages/pxww_files/pxww.svg" width="200" height="40"&gt;&lt;/a&gt;
             </code>
         </details>
         <div>

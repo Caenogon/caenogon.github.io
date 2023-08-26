@@ -10,9 +10,6 @@ body
     height: 100vh;
     overflow-x: hidden;
     color: var(--dark);
-    max-width: 55vw;
-    background-image: url(bg.svg);
-    background-position: center
 }
 
 .px64
@@ -31,7 +28,9 @@ body
 
 .heading
 {
-    margin: 48px 32px;
+    margin-top: 48px;
+    margin-left: 24px;
+    margin-bottom: 24px;
     font-weight: 200
 }
 
@@ -61,7 +60,7 @@ body
 {
     display: flex;
     flex-flow: column nowrap;
-    width: 50%;
+    width: 60%;
     margin-bottom: 10px
 }
 
@@ -87,13 +86,14 @@ body
 
 h1, h2, h3, h4, h5, h6
 {
-    letter-spacing: 5px;
+    letter-spacing: 4px;
     margin: 0;
     font-weight: 200
 }
 p, a
 {
-    margin: 0
+    margin: 0;
+    line-height: 1.5
 }
 summary
 {
@@ -138,34 +138,48 @@ a
     color: var(--dark);
 }
 
-footer
-{
-    margin: 128px 0;
-    text-align: center;
-}
 .fxglink
 {
     margin: 48px;
     font-size: 13px
 }
-footer
+
+.bar_bottom
 {
-    font-size: 16px;
-    font-family: 'Inter', sans-serif;
-    font-weight: 100;
+    color: white;
+    position: absolute;
+    bottom: 0;
     background-color: black;
-    padding: 1.5707vh calc(1.5707vh + 50vw);
-    margin: 0 -50vw;
+    padding: 6px;
+    width: 100vw
 }
-@media only screen and (max-width: 727px)
+
+.bar_top
 {
-  body > * {
-    display: none !important;
-  }
+    color: white;
+    top: 0;
+    background-color: black;
+    padding: 6px;
+    padding-bottom: 10px;
+    width: 100vw;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between
 }
-@media only screen and (min-width: 728px)
+
+.navbar_button
 {
-  .fuck_you {
-    display: none !important;
-  }
+    background-color: black;
+    bottom: 0;
+}
+
+iframe
+{
+    border: none
+}
+.yep
+{
+    font-size: smaller;
+    padding-bottom: 4px;
+    margin-left: 7px
 }

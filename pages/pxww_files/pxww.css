@@ -150,7 +150,7 @@ a
     position: absolute;
     bottom: 0;
     background-color: black;
-    padding: 6px;
+    padding: 5px;
     width: 100vw
 }
 
@@ -159,8 +159,7 @@ a
     color: white;
     top: 0;
     background-color: black;
-    padding: 6px;
-    padding-bottom: 10px;
+    padding: 10px;
     width: 100vw;
     display: flex;
     flex-flow: row wrap;
@@ -171,6 +170,7 @@ a
 {
     background-color: black;
     bottom: 0;
+    margin-left: 10px;
 }
 
 iframe

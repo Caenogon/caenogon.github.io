@@ -5,3 +5,12 @@ body
     background-position: center;
     background-size: cover;
 }
+::-webkit-scrollbar
+{
+    display: none;
+}
+.scrollbar-ms-gecko
+{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}

@@ -141,7 +141,7 @@ a
 .downlink
 {
     margin: 48px;
-    font-size: 13px
+    font-size: smaller
 }
 
 .bar_bottom
@@ -182,4 +182,26 @@ iframe
     font-size: smaller;
     padding-bottom: 4px;
     margin-left: 7px
+}
+hr
+{
+    background-color: black;
+    border: none;
+    height: 1px
+}
+.metraberryy_portrait
+{
+    float: right;
+    margin-left: 8px
+}
+.scepixel_fla_portrait
+{
+    float: left;
+    margin-right: 8px
+}
+.hits
+{
+    margin-top: -10px;
+    margin-bottom: -8px;
+    padding-right: 10px;
 }

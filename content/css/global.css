@@ -4,7 +4,7 @@
     --tone1: #252225;
     --tone2: #523c53;
     --tone3: #674667;
-    --tone4: #fff4e0;
+    --tone4: #fff;
 
     --text: var(--tone4);
     --deepground: var(--tone0);
@@ -12,11 +12,10 @@
     --primary: var(--tone3);
     --secondary: var(--tone2);
 
-    --metra: #af8fd5;
+    --metra: #b382ff;
     --hyper: #dc3545;
     --mike: #28a745;
     --pixel: #0d6efd;
-    --acidic: #44d2a8;
 }
 
 html {
@@ -350,14 +349,6 @@ footer .logo {
 
 .pfp#scepixel img {
     background-color: var(--pixel);
-}
-
-.pfp#acidiclight::before {
-    border-color: var(--acidic);
-}
-
-.pfp#acidiclight img {
-    background-color: var(--acidic);
 }
 
 footer {

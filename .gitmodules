@@ -1,3 +1,6 @@
 [submodule "pages/metraweb"]
 	path = pages/metraweb
 	url = https://github.com/Metraberryy/metraweb.git
+[submodule "pages/pxww"]
+	path = pages/pxww
+	url = https://github.com/pikuse/pxww.git

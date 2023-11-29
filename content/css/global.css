@@ -120,8 +120,8 @@ header a {
     #header-links {
         display: none;
     }
-    #logo
-    {
+
+    #logo {
         width: 100%;
     }
 }
@@ -130,6 +130,7 @@ header a {
     #logo {
         display: none;
     }
+
     #logo-small {
         display: block;
     }

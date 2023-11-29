@@ -204,7 +204,7 @@ hr {
 }
 
 .top_image {
-    background-image:url(pxw_top_image.svg);
+    background-image:url(../svgs/pxw_top_image.svg);
     background-position: center;
     background-size: cover;
     width:70vw; 

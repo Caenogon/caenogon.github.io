@@ -1,0 +1,3 @@
+[submodule "pages/metraweb"]
+	path = pages/metraweb
+	url = https://github.com/Metraberryy/metraweb.git

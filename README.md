@@ -1,8 +1,6 @@
-# caenogo.nl
+# caenogon.nl
 
-## Copyright (C) 2023 Caenogon <https://caenogo.nl>
-
-_hey that's this thing_
+## Copyright (C) 2023-2024 Caenogon <https://caenogon.nl>
 
 This website is free software: you can redistribute it and/or modify
 it under the terms of the GNU Affero General Public License as published by

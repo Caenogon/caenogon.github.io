@@ -33,24 +33,20 @@ body {
 }
 
 h1,
-h2,
-h3 {
+h2 {
     margin: 0;
     font-family: 'Outfit', sans-serif;
-    font-weight: normal;
     min-height: 6.3vh;
 }
 
 h1 {
     font-size: 5vh;
+    font-weight: 500;
 }
 
 h2 {
     font-size: 3.75vh;
-}
-
-h3 {
-    font-size: 2.5vh;
+    font-weight: 300
 }
 
 header {
@@ -192,10 +188,6 @@ footer .logo {
 .hero-heading {
     font-weight: 500;
     line-height: 6vh;
-}
-
-.hero-subheading {
-    font-weight: 300;
 }
 
 .content {
